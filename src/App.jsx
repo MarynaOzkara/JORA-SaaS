@@ -1,8 +1,10 @@
+import Header from "./sections/Header";
+
 const App = () => {
   return (
-    <div>
-      <h1>Hello JORA!</h1>
-    </div>
+    <main className="overflow-hidden">
+      <Header />
+    </main>
   );
 };
 
